@@ -6,7 +6,7 @@ class TeamMemberGrid extends Component {
 
     let data = [
       {
-        profileImage: "team-1.jpg",
+        profileImage: "assets/img/team/neeraj.jpeg",
         profileTitle: "Neeraj Kr. Sahu",
         profileDesignation: "Team Member 1",
         profileEmail: "coe17b036@iiitk.ac.in",
@@ -18,7 +18,7 @@ class TeamMemberGrid extends Component {
         }
       },
       {
-        profileImage: "team-2.jpg",
+        profileImage: "assets/img/team/lalitanjali.jpeg",
         profileTitle: "Lalithanjali Pulakurthi",
         profileDesignation: "Team Member 2",
         profileEmail: "coe17b015@iiitk.ac.in",
@@ -30,7 +30,7 @@ class TeamMemberGrid extends Component {
         }
       },
       {
-        profileImage: "team-3.jpg",
+        profileImage: "assets/img/team/anik.jpg",
         profileTitle: "Anik Das",
         profileDesignation: "Team Member 3",
         profileEmail: "coe16b001@iiitk.ac.in",
@@ -42,7 +42,7 @@ class TeamMemberGrid extends Component {
         }
       },
       {
-        profileImage: "team-4.jpg",
+        profileImage: "assets/img/team/saya_sir.jpg",
         profileTitle: "Saya Sreenivasula",
         profileDesignation: "Mentor",
         profileEmail: "sreeni@iiitk.ac.in",
@@ -62,6 +62,7 @@ class TeamMemberGrid extends Component {
           key={i}
         >
           <div className="team">
+          <img src={val.profileImage} style={{width: "100%", height: "auto"}} />
             
             <div className="content">
               <h3 className="title">{val.profileTitle}</h3>
