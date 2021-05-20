@@ -18,7 +18,7 @@ class TeamMemberGrid extends Component {
         }
       },
       {
-        profileImage: "assets/img/team/lalitanjali.jpeg",
+        profileImage: "assets/img/team/lalitanjali.jpg",
         profileTitle: "Lalithanjali Pulakurthi",
         profileDesignation: "Team Member 2",
         profileEmail: "coe17b015@iiitk.ac.in",

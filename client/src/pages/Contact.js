@@ -59,7 +59,7 @@ class Contact extends Component{
                                 </li>
                                 <li>
                                     <span className="icon"><i className="ion-ios-email-outline" /></span>
-                                    <span className="text"><a href="mailto:info@example.com">neeraj16993@gmail.com</a><a href="mailto:info@example.com">varun16993@gmail.com</a></span>
+                                    <span className="text"><a href="mailto:info@example.com">neeraj16993@gmail.com</a><a href="mailto:info@example.com">sahu16993@gmail.com</a></span>
                                 </li>
                             </ul>
                         </div>
